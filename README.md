@@ -1,6 +1,6 @@
 
 🗂️ Cấu trúc dự án
-
+```text
 THDeepLearning/
 ├── cnn/                   # Mã nguồn mô hình, huấn luyện, đánh giá
 │   ├── model.py           # Định nghĩa kiến trúc CNN
@@ -14,7 +14,7 @@ THDeepLearning/
 ├── fingerprint_model.pth  # Weights mô hình đã huấn luyện
 ├── training_test_chart.png# Đồ thị Accuracy/Loss
 └── README.md              # Hướng dẫn sử dụng
-
+```
 ⚙️ Yêu cầu hệ thống
 
 Hệ điều hành: Windows, macOS, hoặc Linux
