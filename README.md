@@ -1,40 +1,3 @@
-📋 Mục lục
-
-✨ Tính năng
-
-🗂️ Cấu trúc dự án
-
-⚙️ Yêu cầu hệ thống
-
-🚀 Hướng dẫn cài đặt
-
-🗃️ Chuẩn bị dữ liệu
-
-🎬 Cách sử dụng
-
-🏋️ Huấn luyện
-
-🔍 Đánh giá
-
-🤖 Dự đoán (Inference)
-
-📦 Mô hình đã huấn luyện sẵn
-
-📈 Kết quả
-
-🤝 Đóng góp
-
-📜 Giấy phép
-
-✨ Tính năng
-
-🎯 Kiến trúc CNN tùy chỉnh dành riêng cho nhận diện vân tay
-
-🔄 Pipeline huấn luyện và đánh giá tập trung trong cnn/
-
-🗂️ Mô hình được huấn luyện sẵn (fingerprint_model.pth)
-
-📊 Đồ thị so sánh Accuracy & Loss giữa huấn luyện và kiểm thử (training_test_chart.png)
 
 🗂️ Cấu trúc dự án
 
@@ -104,7 +67,7 @@ pip install torch torchvision numpy pandas matplotlib opencv-python scikit-learn
 
 Tải bộ SOCOFing từ trang chính thức:
 
-https://seu-software.github.io/SOCOFING/
+https://www.kaggle.com/datasets/ruizgara/socofing
 
 Giải nén vào thư mục data/SOCOFing/
 
@@ -133,6 +96,10 @@ python cnn/train.py \
 
 --save_path: Đường dẫn lưu weights
 
+Sau khi train xong thì chạy trên terminal với câu lệnh: 
+```bash
+python cnn/main.py
+```
 🔍 Đánh giá
 
 python cnn/test.py \
